@@ -12,6 +12,7 @@ az servicebus queue create --resource-group az204-svcbus-rg --namespace-name $my
 az group delete --name az204-svcbus-rg --no-wait
 */
 
+// string azureServiceBusKey = Environment.GetEnvironmentVariable("AZURE_SERVICE_BUS_KEY");
 string connectionString = "your-actual-secret-key";
 string queueName = "az204-queue";
 
